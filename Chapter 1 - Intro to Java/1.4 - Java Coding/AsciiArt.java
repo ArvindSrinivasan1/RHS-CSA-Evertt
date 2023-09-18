@@ -1,4 +1,6 @@
-public class Art {
+public class AsciiArt {
+    public static void main(String[] args){}
+
     /* List of all requested art...
         Fish: ><(((('>
         Cat: =^..^=
@@ -34,8 +36,8 @@ public class Art {
      */
     
     public AsciiArt() {
+    
     }
-
     // Functions to print out requested art
     public void printFish() {
         System.out.println("><(((('>");
@@ -44,7 +46,48 @@ public class Art {
         System.out.println("=^..^=");
     }
     public void printRose() {
-        // TODO - YOUR CODE GOES HERE
+        System.out.println("--------{---(@");
     }
-    // TODO - YOUR FUNCTIONS GOES HERE
+    public void printWorm(){
+        System.out.println("_/\\__/\\__0>");
+    }
+    public void printPersonalMessage(){
+        System.out.println(" (¯`·._.·(¯`·._.· Go Hawks ·._.·´¯)·._.·´¯)");
+    }
+    public void printCaterpiller(){
+        System.out.println(",//\\,//\\,//\\,//\\,//\\,//\\,o ");
+    }
+    public void printProffesor(){
+        System.out.println("\"\"⌐(ಠ۾ಠ)¬\"\"");
+    }
+    public void printIdontknow(){
+        System.out.println("¯\\_(ツ)_/¯");
+    }
+    public void printMickey(){
+        System.out.println("                                 _____\r\n" + //
+                "                             .d88888888bo.\r\n" + //
+                "                            .d8888888888888b.\r\n" + //
+                "                            8888888888888888b\r\n" + //
+                "                            888888888888888888\r\n" + //
+                "                            888888888888888888\r\n" + //
+                "                            Y8888888888888888\r\n" + //
+                "                       ,od888888888888888888P\r\n" + //
+                "                    .'`Y8P'```'Y8888888888P'\r\n" + //
+                "                  .'_   `  _     'Y88888888b\r\n" + //
+                "                 /  _`    _ `      Y88888888b   ____\r\n" + //
+                "             _  | /  \\  /  \\      8888888888.d888888b.\r\n" + //
+                "            d8b | | /|  | /|      8888888888d8888888888b\r\n" + //
+                "            8888_\\ \\_|/  \\_|/      d888888888888888888888b\r\n" + //
+                "            .Y8P  `'-.            d88888888888888888888888\r\n" + //
+                "            /          `          `      `Y8888888888888888\r\n" + //
+                "            |                        __    888888888888888P\r\n" + //
+                "            \\                       / `   dPY8888888888P'\r\n" + //
+                "            '._                  .'     .'  `Y888888P`\r\n" + //
+                "                `\"'-.,__    ___.-'    .-'\r\n" + //
+                "                    `-._````  __..--'`\r\n" + //
+                "                        ``````");
+
+    
+            }
+        
 }

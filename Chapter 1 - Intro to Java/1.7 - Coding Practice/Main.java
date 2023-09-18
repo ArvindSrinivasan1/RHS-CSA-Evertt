@@ -17,26 +17,62 @@ public class Main {
     }
 
     public static void exercise5() {
-        // TODO: Your code for this exercise goes here
+        System.out.println("A\"quoted\" String is\n 'much' better if you learn\n the rules of \"escape sequences.\"\n Also, \"\" represents an empty String.\n Don't forget: use \\\"instead of \" !\n '' is not the same as \"\" ");
     }
 
     public static void exercise6() {
-        // TODO: Your code for this exercise goes here
+        System.out.println("System.out.println(\"Hello, World!\")");
     }
-
+    public static void ex7Repeat(){
+        System.out.println("There's one thing every coder must understand:\n The System.out.println command.");
+    }
     public static void exercise7() {
-        // TODO: Your code for this exercise goes here
+        ex7Repeat();
+        ex7Repeat();
     }
+    public static void ex8b(){
+        System.out.println("//////////////////////");
+    
 
+    }
+    public static void ex8(){
+        System.out.println("|| Victory is mine! ||");
+        System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
+    }
     public static void exercise8() {
-        // TODO: Your code for this exercise goes here
+       ex8b();
+       ex8();
+       ex8();
+       ex8();
+       ex8();
+       ex8();
     }
-
+    public static void ex9(){
+        System.out.println("  ________");
+        System.out.println(" /        \\");
+        System.out.println("/          \\");
+        
+      
+    }
+    public static void ex9a(){
+        System.out.println(" -\"-'-\"-'-\"-");
+    }
+    public static void ex9b(){
+        System.out.println("\\          /");
+        System.out.println(" \\________/");
+    }
     public static void exercise9() {
-        // TODO: Your code for this exercise goes here
+        ex9();
+        ex9a();
+        ex9b();
+    }
+    public static void exercise10() {
+       ex9();
+       ex9b();
+       System.out.println("");
+       ex9a();
+       ex9();
+       ex9b();
     }
 
-    public static void exercise10() {
-        // TODO: Your code for this exercise goes here
-    }
 }
