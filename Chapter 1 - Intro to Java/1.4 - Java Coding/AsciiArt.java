@@ -1,9 +1,6 @@
 public class AsciiArt {
-<<<<<<< HEAD
     public static void main(String[] args){}
 
-=======
->>>>>>> b7371c4a3d972f0bffe6b3ad9242eca8bf7c8cc4
     /* List of all requested art...
         Fish: ><(((('>
         Cat: =^..^=
