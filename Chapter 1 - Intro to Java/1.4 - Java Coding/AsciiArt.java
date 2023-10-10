@@ -1,15 +1,18 @@
 public class AsciiArt {
+<<<<<<< HEAD
     public static void main(String[] args){}
 
+=======
+>>>>>>> b7371c4a3d972f0bffe6b3ad9242eca8bf7c8cc4
     /* List of all requested art...
         Fish: ><(((('>
         Cat: =^..^=
         Rose: --------{---(@
         Worm: _/\__/\__0>
-        Personal Message: (¯`·._.·(¯`·._.· Your Text ·._.·´¯)·._.·´¯)
+        Personal Message: /·._.·\·._.· Your Text ·._.·/·._.·\
         Caterpillar: ,/\,/\,/\,/\,/\,/\,o 
-        Professor: ""⌐(ಠ۾ಠ)¬""
-        I don't know: ¯\_(ツ)_/¯ 
+        Professor: ""⌐('_')¬""
+        I don't know: '\_(*_*)_/'
         Mickey: 
                                  _____
                              .d88888888bo.

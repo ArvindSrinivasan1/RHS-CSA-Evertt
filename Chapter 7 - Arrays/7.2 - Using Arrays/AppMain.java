@@ -1,5 +1,8 @@
+// Lesson 7.2 - Using Arrays
+
 public class AppMain {
     public static void main(String[] args) {
+        // Do not modify the code in this method (edit the methods below main)
         System.out.println("--------- arrayToString ---------");
         System.out.println(arrayToString(new int[] { 1, 2, 3, 4 }));
         System.out.println(arrayToString(new int[] { -1, 5, 0 }));
