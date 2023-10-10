@@ -1,13 +1,25 @@
 public class AppMain {
     public static void main(String[] args) {
-        // Line 1
-        // TODO
 
-        // Line 2
-        // TODO
+        String line1 = "";
+        for (int i = 0; i < 5; i++) {
+            line1 += randValue(100) + " ";
+        }
+        System.out.println(line1);
+
+        String line2 = "";
+        for (int i = 0; i < 5; i++) {
+            line2 += randValue(100, 500) + " ";
+        }
+        System.out.println(line2);
     }
     
-    // Put your functions here...
-    // Function 1 should: should return a value less than a maximum provided value: [0,𝑚𝑎𝑥𝑉𝑎𝑙𝑢𝑒).
-    // Function 2 should: should return a value between two provided doubles: [𝑚𝑖𝑛𝑉𝑎𝑙𝑢𝑒,𝑚𝑎𝑥𝑉𝑎𝑙𝑢𝑒).
+
+    public static int randValue(int maxValue) {
+        return (int)(Math.random() * 10);
+    }
+
+    public static int randValue(int minValue, int maxValue) {
+        return minValue + (int)(Math.random() * (maxValue - minValue));
+    }
 }
